@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic Volume Prediction</title>
+     
+</head>
+<body background="Flask\templates\predict.jfif" text="black">
+    <div class="login">
+        <center><h1>Traffic Volume Prediction Result</h1></center>
+        <center>
+            <h3>Predicted Traffic Volume: {{ prediction }}</h3>
+            <br><br>
+            <a href="{{ url_for('home') }}">Back to Input</a>
+        </center>
+    </div>
+</body>
+</html>
